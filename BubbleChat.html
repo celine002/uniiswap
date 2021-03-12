@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTgiF-8">
+    <title>chatbubbles </title>
+    <style>
+        *{margin:0px; padding:0px; font-family:Helvetica,Arial, Helvetica, sans-serif}
+ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li { 
+    display: inline-block;
+    clear: both;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+}
+
+him {
+  background: #eee;
+  float: left;
+  margin-left: 8px;
+}
+
+me {
+    float: right;
+    background: #0084ff;
+    color: #fff;
+    margin-right: 8px;
+}
+
+.him + .me{
+  border-bottom-right-radius: 5px;
+}
+.me + .me{
+  border-top-right-radius: 5px; 
+  border-bottom-right-radius: 5px;
+}
+.me:last-of-type  {
+  border-bottom-right-radius: 36px;
+}
+</style>
+</head>
+
+</head>
+
+<body>
+<div class="wrapper" style="width:40% ;height:566px; border: 4px solid #6657B4; margin:auto; margin-top:46px">
+     <div class="name" style="height:50px ;height:566px; background: #0066D3; margin-bottom:20px; color:#fff;text-align:center;line-height:1.9em;font-size:24px">
+          Chat Bubble
+     </div>
+    <ul>
+   <li class="him"> By Other User</Li>
+   <li class="him"> By This User, First message</li>
+   <li class="him"> By This User, Second message</li>
+   <li class="him"> By This User, Third message</li>
+   <li class="him"> By This User, Fourth message</li>
+   <li class="him"> By This User, Fifth message</li>
+  </ul>
+</div>
+</body>
+
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
